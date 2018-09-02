@@ -330,7 +330,7 @@
 		3AC807B4213C28F90067DE32 /* sheet.swf in Resources */ = {isa = PBXBuildFile; fileRef = 3AC8066F213C28F90067DE32 /* sheet.swf */; };
 		3AC807B5213C28F90067DE32 /* sheet.xml in Resources */ = {isa = PBXBuildFile; fileRef = 3AC80671213C28F90067DE32 /* sheet.xml */; };
 		3AC807B6213C28F90067DE32 /* sheet.png in Resources */ = {isa = PBXBuildFile; fileRef = 3AC80672213C28F90067DE32 /* sheet.png */; };
-		3AC807B7213C28F90067DE32 /* bg5.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3AC80673213C28F90067DE32 /* bg5.jpg */; };
+		3AC807B7213C28F90067DE32 /* bg5@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3AC80673213C28F90067DE32 /* bg5@2x.jpg */; };
 		3AC807B8213C28F90067DE32 /* parallax-mountain-mountains.png in Resources */ = {isa = PBXBuildFile; fileRef = 3AC80676213C28F90067DE32 /* parallax-mountain-mountains.png */; };
 		3AC807B9213C28F90067DE32 /* parallax-mountain-foreground-trees.png in Resources */ = {isa = PBXBuildFile; fileRef = 3AC80677213C28F90067DE32 /* parallax-mountain-foreground-trees.png */; };
 		3AC807BA213C28F90067DE32 /* parallax-mountain-trees.png in Resources */ = {isa = PBXBuildFile; fileRef = 3AC80678213C28F90067DE32 /* parallax-mountain-trees.png */; };
@@ -678,7 +678,7 @@
 		3AC8066F213C28F90067DE32 /* sheet.swf */ = {isa = PBXFileReference; lastKnownFileType = file; path = sheet.swf; sourceTree = "<group>"; };
 		3AC80671213C28F90067DE32 /* sheet.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = sheet.xml; sourceTree = "<group>"; };
 		3AC80672213C28F90067DE32 /* sheet.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sheet.png; sourceTree = "<group>"; };
-		3AC80673213C28F90067DE32 /* bg5.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = bg5.jpg; sourceTree = "<group>"; };
+		3AC80673213C28F90067DE32 /* bg5@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "bg5@2x.jpg"; sourceTree = "<group>"; };
 		3AC80676213C28F90067DE32 /* parallax-mountain-mountains.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "parallax-mountain-mountains.png"; sourceTree = "<group>"; };
 		3AC80677213C28F90067DE32 /* parallax-mountain-foreground-trees.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "parallax-mountain-foreground-trees.png"; sourceTree = "<group>"; };
 		3AC80678213C28F90067DE32 /* parallax-mountain-trees.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "parallax-mountain-trees.png"; sourceTree = "<group>"; };
@@ -754,7 +754,7 @@
 			isa = PBXGroup;
 			children = (
 				3AC8052B213C28F90067DE32 /* SpaceShooterRedux */,
-				3AC80673213C28F90067DE32 /* bg5.jpg */,
+				3AC80673213C28F90067DE32 /* bg5@2x.jpg */,
 				3AC80674213C28F90067DE32 /* parallax_mountain_pack */,
 			);
 			path = myGameAssets;
@@ -1471,7 +1471,7 @@
 				3AC8071D213C28F90067DE32 /* wingBlue_4.png in Resources */,
 				3AC80780213C28F90067DE32 /* fire05.png in Resources */,
 				3AC8076D213C28F90067DE32 /* meteorGrey_tiny1.png in Resources */,
-				3AC807B7213C28F90067DE32 /* bg5.jpg in Resources */,
+				3AC807B7213C28F90067DE32 /* bg5@2x.jpg in Resources */,
 				3AC806F1213C28F90067DE32 /* wingRed_0.png in Resources */,
 				3AC8076B213C28F90067DE32 /* meteorBrown_med3.png in Resources */,
 				3AC8076F213C28F90067DE32 /* ufoRed.png in Resources */,
