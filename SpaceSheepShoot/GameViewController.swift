@@ -25,22 +25,11 @@ class GameViewController: UIViewController {
                 view.presentScene(scene)
             }
             
-            view.ignoresSiblingOrder = true
+            //view.ignoresSiblingOrder = true
             
+            view.showsPhysics = true
             view.showsFPS = true
             view.showsNodeCount = true
-        }
-    }
-
-    override var shouldAutorotate: Bool {
-        return true
-    }
-
-    override var supportedInterfaceOrientations: UIInterfaceOrientationMask {
-        if UIDevice.current.userInterfaceIdiom == .phone {
-            return .allButUpsideDown
-        } else {
-            return .all
         }
     }
 
