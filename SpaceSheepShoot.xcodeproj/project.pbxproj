@@ -338,6 +338,8 @@
 		3AC807BC213C28F90067DE32 /* parallax-mountain-montain-far.png in Resources */ = {isa = PBXBuildFile; fileRef = 3AC8067A213C28F90067DE32 /* parallax-mountain-montain-far.png */; };
 		3AC807BD213C28F90067DE32 /* parallax-mountain.psd in Resources */ = {isa = PBXBuildFile; fileRef = 3AC8067B213C28F90067DE32 /* parallax-mountain.psd */; };
 		3AC807BE213C28F90067DE32 /* license.txt in Resources */ = {isa = PBXBuildFile; fileRef = 3AC8067C213C28F90067DE32 /* license.txt */; };
+		3AEC2E5F213D6A570022DAF7 /* AnalogJoystick.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AEC2E5E213D6A560022DAF7 /* AnalogJoystick.swift */; };
+		3AEC2E61213D73570022DAF7 /* Extension+Screen .swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AEC2E60213D73570022DAF7 /* Extension+Screen .swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -686,6 +688,8 @@
 		3AC8067A213C28F90067DE32 /* parallax-mountain-montain-far.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "parallax-mountain-montain-far.png"; sourceTree = "<group>"; };
 		3AC8067B213C28F90067DE32 /* parallax-mountain.psd */ = {isa = PBXFileReference; lastKnownFileType = file; path = "parallax-mountain.psd"; sourceTree = "<group>"; };
 		3AC8067C213C28F90067DE32 /* license.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = license.txt; sourceTree = "<group>"; };
+		3AEC2E5E213D6A560022DAF7 /* AnalogJoystick.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnalogJoystick.swift; sourceTree = "<group>"; };
+		3AEC2E60213D73570022DAF7 /* Extension+Screen .swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Extension+Screen .swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -727,8 +731,10 @@
 		3AC80503213C26E20067DE32 /* SpaceSheepShoot */ = {
 			isa = PBXGroup;
 			children = (
+				3AEC2E62213D736C0022DAF7 /* Extensions */,
 				3AC8052A213C28F90067DE32 /* myGameAssets */,
 				3AC80504213C26E20067DE32 /* AppDelegate.swift */,
+				3AEC2E5E213D6A560022DAF7 /* AnalogJoystick.swift */,
 				3AC80506213C26E20067DE32 /* GameScene.sks */,
 				3AC80508213C26E20067DE32 /* Actions.sks */,
 				3AC8050A213C26E20067DE32 /* GameScene.swift */,
@@ -1207,6 +1213,14 @@
 			path = layers;
 			sourceTree = "<group>";
 		};
+		3AEC2E62213D736C0022DAF7 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				3AEC2E60213D73570022DAF7 /* Extension+Screen .swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -1632,7 +1646,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3AEC2E61213D73570022DAF7 /* Extension+Screen .swift in Sources */,
 				3AC8050B213C26E20067DE32 /* GameScene.swift in Sources */,
+				3AEC2E5F213D6A570022DAF7 /* AnalogJoystick.swift in Sources */,
 				3AC8050D213C26E20067DE32 /* GameViewController.swift in Sources */,
 				3AC80505213C26E20067DE32 /* AppDelegate.swift in Sources */,
 			);
